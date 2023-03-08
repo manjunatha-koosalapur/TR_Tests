@@ -1,4 +1,4 @@
-Steps to use test scripts:
+Steps to run test scripts:
 1. Download or clone this repo
 2. Install dependencies by running the following command 
    npm install
