@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "Manjunatha Koosalapur",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.7.0"
+  }
 }

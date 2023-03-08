@@ -33,7 +33,7 @@ describe('Tourradar - Europe Tours and Trips webpage test suite', () => {
     cy.get('[itemscope=""][data-id="14263"] > .br > .br__button-wrapper > .aa-btn--primary').click()
   })
 
-  it.only('Test03: Downloading a brochure', () => { 
+  it('Test03: Downloading a brochure', () => { 
   cy.get('[itemscope=""][data-id="14263"] > .br > .br__button-wrapper > [data-cy="serp-tour--download-brochure"]').click()
   cy.get('[data-cy="common-download-brochure--email-input"]').clear('m');
   cy.get('[data-cy="common-download-brochure--email-input"]').type('manjunatha2207@gmail.com')
