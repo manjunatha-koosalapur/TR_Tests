@@ -14,8 +14,10 @@ describe('Orange HRM Login functionality', () => {
     // cy.contains('My Leave').click()
     
     //Using regular expression- RegEx
-        cy.get('.oxd-topbar-body-nav > ul').contains(/^M\w+/).click()
+        // cy.get('.oxd-topbar-body-nav > ul').contains(/^M\w+/).click()
 
+    //Using find command
+        cy.get('.oxd-topbar-body-nav > ul').find('li a').contains('Apply').click()
 
     })
 
